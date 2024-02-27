@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  height: 200px;
+  width: 100%;
+  background-color: #e9eef6;
+}
+.todoTask {
+  width: 100%;
+  background-color: #f6f7f8;
+}
+.task-container {
+  width: 90%;
+  margin: auto;
+  /* height: 400px; */
+  display: flex;
+  margin: auto;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* css for card.jsx */
+.card-container {
+  height: 250px;
+  width: 300px;
+  box-shadow: 0px 3px 50px #a5a5a5;
+}
+
+.card-wrapper {
+  width: 250px;
+  height: 200px;
+  box-shadow: 0px 3px 50px #a5a5a5;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-top {
+  width: 100%;
+  height: 2%;
+}
+.card-header {
+  margin: 10px 20px;
+  max-width: 80%;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.task-holder {
+  width: 100%;
+  height: 95%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.description {
+  width: 100%;
+  font-size: 14px;
+  height: 100px;
+  border: 1px solid #f3f3f3;
+  padding: 5px 5px;
+}
